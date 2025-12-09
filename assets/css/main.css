@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 自定义基础样式 */
+@layer base {
+  body {
+    @apply antialiased text-gray-800 bg-gray-50;
+  }
+  
+  ::selection {
+    @apply bg-blue-500/20 text-blue-700;
+  }
+}
+
+/* 自定义组件样式 */
+@layer components {
+  .container {
+    @apply px-4 md:px-6 lg:px-8;
+  }
+  
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r;
+  }
+  
+  .glass-effect {
+    @apply backdrop-blur-md bg-white/80 border border-white/20;
+  }
+}
+
+/* 动画效果 */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* 平滑滚动 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 加载动画 */
+.spin-slow {
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
