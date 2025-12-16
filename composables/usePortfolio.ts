@@ -67,12 +67,12 @@ export const usePortfolio = () => {
       description: '实时监控电商平台销售数据，分析用户行为和销售趋势，支持多维度数据钻取',
       icon: '🛒',
       tags: ['Tableau', '电商分析', '实时数据', '用户行为', '销售预测'],
-      status: '进行中',
+      status: '已完成',
       gradient: 'from-green-500 to-emerald-500',
-      powerbiUrl: 'https://app.powerbi.com/view?r=eyJrIjoiYmE2NDAwMmMtMjlhNy00YjhhLThiZjMtYjRlNTg0ZDhkZTk3IiwidCI6IjQ4MDM1NzEzLWVmODAtNDAzOS05ZTQ2LTk5MDI5MGJiN2U5ZiIsImMiOjEwfQ%3D%3D',
+      powerbiUrl: 'https://app.powerbi.com/view?r=eyJrIjoiZDhiM2I3NWMtODQxYy00YjBiLTkzYmEtNWQ3OTU1ZWE4NTBkIiwidCI6IjQ4MDM1NzEzLWVmODAtNDAzOS05ZTQ2LTk5MDI5MGJiN2U5ZiIsImMiOjEwfQ%3D%3D',
       technologies: [
         {
-          name: 'Tableau',
+          name: 'Power BI',
           description: '商业智能可视化工具',
           iconBg: 'bg-gradient-to-br from-blue-100 to-blue-50',
           iconColor: 'text-blue-600'
@@ -103,9 +103,9 @@ export const usePortfolio = () => {
       description: '通过自然语言处理分析社交媒体数据，监控品牌声誉和用户情感，提供智能洞察',
       icon: '💬',
       tags: ['Python', 'NLP', '情感分析', '文本挖掘', '机器学习'],
-      status: '已完成',
+      status: '进行中',
       gradient: 'from-purple-500 to-pink-500',
-      powerbiUrl: 'https://app.powerbi.com/view?r=eyJrIjoiMDUxZjUyNDAtOTk5Zi00ZTY4LTg5YWUtMDA5M2NkMTU0OWE0IiwidCI6IjQ4MDM1NzEzLWVmODAtNDAzOS05ZTQ2LTk5MDI5MGJiN2U5ZiIsImMiOjEwfQ%3D%3D',
+      powerbiUrl: 'https://app.powerbi.com/view?r=eyJrIjoiYmE2NDAwMmMtMjlhNy00YjhhLThiZjMtYjRlNTg0ZDhkZTk3IiwidCI6IjQ4MDM1NzEzLWVmODAtNDAzOS05ZTQ2LTk5MDI5MGJiN2U5ZiIsImMiOjEwfQ%3D%3D',
       technologies: [
         {
           name: 'Python',
@@ -139,7 +139,7 @@ export const usePortfolio = () => {
       description: '分析供应链数据，优化库存管理和物流效率，降低运营成本，提高周转率',
       icon: '🚚',
       tags: ['数据分析', '供应链', '库存优化', '物流管理', '成本控制'],
-      status: '已完成',
+      status: '进行中',
       gradient: 'from-orange-500 to-red-500',
       powerbiUrl: 'https://app.powerbi.com/view?r=eyJrIjoiZTA5NjczNDItM2JiZC00ZDIyLTgyOGItNWEyNzE4ZmE3ZWViIiwidCI6IjQ4MDM1NzEzLWVmODAtNDAzOS05ZTQ2LTk5MDI5MGJiN2U5ZiIsImMiOjEwfQ%3D%3D',
       technologies: [
@@ -211,7 +211,7 @@ export const usePortfolio = () => {
       description: '使用机器学习预测市场趋势和业务指标，提供数据驱动的决策支持，降低投资风险',
       icon: '📈',
       tags: ['机器学习', '预测分析', '时间序列', '风险评估', '数据建模'],
-      status: '最新发布',
+      status: '进行中',
       gradient: 'from-yellow-500 to-orange-500',
       powerbiUrl: 'https://app.powerbi.com/view?r=eyJrIjoiNTE0M2M3ZjctOWY2Ny00ZmUxLWIyNGQtZjc1NGU2YTY5NTE3IiwidCI6IjQ4MDM1NzEzLWVmODAtNDAzOS05ZTQ2LTk5MDI5MGJiN2U5ZiIsImMiOjEwfQ%3D%3D',
       technologies: [
@@ -283,7 +283,7 @@ export const usePortfolio = () => {
       description: '分析城市交通数据，优化交通流量，减少拥堵，提高城市交通效率',
       icon: '🚗',
       tags: ['智慧城市', '交通分析', '实时监控', '路径优化', '大数据'],
-      status: '已完成',
+      status: '进行中',
       gradient: 'from-gray-500 to-blue-500',
       powerbiUrl: 'https://app.powerbi.com/view?r=eyJrIjoiMzQ1NjQ1MzItOTU0NC00MjU0LTg4MzItYjEyMzQ1Njc4OTAxIiwidCI6IjQ4MDM1NzEzLWVmODAtNDAzOS05ZTQ2LTk5MDI5MGJiN2U5ZiIsImMiOjEwfQ%3D%3D',
       technologies: [
